@@ -68,19 +68,19 @@ Plaintext
 
 ├── ai_model/
 
-│   └── factspeak_ai.py      # Q&A logic using DistilBERT 
+│      └── factspeak_ai.py      # Q&A logic using DistilBERT 
 
 ├── validator/
 
-│   └── truth_checker.py     # Logic for Wikipedia verification 
+│      └── truth_checker.py     # Logic for Wikipedia verification 
 
 ├── blockchain/
 
-│   ├── EhticalValidation.sol # Smart contract for logging results 
+│      ├── EhticalValidation.sol # Smart contract for logging results 
 
-│   ├── EthicalValidationABI.json # Compiled contract ABI
+│      ├── EthicalValidationABI.json # Compiled contract ABI
 
-│   └── interact_with_contract.py # Web3.py interaction script
+│      └── interact_with_contract.py # Web3.py interaction script
 
 └── app.py                   # Main CLI entry point for the system 
 🔧 Installation & Setup
